@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* <--------------------------------------navbar----------------------------> */
+
+
+.navbar {
+    height: 50px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(242, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 25px;
+    width: 50px;
+}
+
+.logo {
+    background-image: url("Amazon.png");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    border: 2px solid transparent;
+}
+
+.logo:hover{
+    border: 2px solid white;
+}
+
+/* <-----------------Box 2 -------------------------> */
+
+.address-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.address-icon {
+    display: flex;
+}
+
+.nav-address-border:hover{
+    border: 2px solid white;
+}
+
+/* -----------------------------nav-search------------------------*/
+
+.nav-search {
+    margin-left: 10px;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6e207;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* -----------------------------box 4 -------------------------------------*/
+
+span {
+    font-size: 12px;
+}
+
+.nav-second {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-signin:hover {
+    border: 2px solid white;    
+}
+
+.nav-return:hover {
+    border: 2px solid white;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(235, 79, 7);
+}
+
+/* ----------------------------------- Cart ----------------------*/
+
+.nav-cart i {
+    font-size: 20px;
+}
+
+.nav-cart:hover {
+    border: 2px solid white;
+}
+
+/*---------------------------panel-all-----------------------*/
+
+.Panel-all {
+    height: 40px;
+    background-color: cadetblue;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    width: 70%;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.panel-deals {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 560px;
+}
+
+.Panel-all { 
+    justify-content: left;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/*--------------------------------hero-section-------------------------*/
+
+.hero-section {
+    background-image: url(hero.jpg);
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.hero-msg {
+    background-color: antiquewhite;
+    color: black;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------shop-section-------------------------*/
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    border: 2px solid black;
+    height: 230px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box1-image {
+    background-image: url(apple.jpg);
+    height: 150px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box2-image {
+    background-image: url(earbuds.jpg);
+    height: 150px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+}
+
+.box3-image {
+    background-image: url(decor.jpg);
+    height: 150px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+}
+
+.box4-image {
+    background-image: url(mouse.jpg);
+    height: 150px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+}
+
+/*--------------------------------Footer---------------------------*/
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
